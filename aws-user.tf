@@ -1,3 +1,6 @@
+provider "aws" {
+  
+}
 # Creates an IAM user in AWS
 resource "aws_iam_user" "admin-user" {
      # The name of the IAM user. This must be unique within your AWS account.
