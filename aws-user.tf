@@ -1,5 +1,5 @@
 provider "aws" {
-  
+  region = "me-south-1"
 }
 # Creates an IAM user in AWS
 resource "aws_iam_user" "admin-user" {
